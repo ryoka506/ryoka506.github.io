@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!--Description-->
+  
+
+  <!--Author-->
+  
+  <meta name="author" content="zh1yu">
+  
+
+  <!--Open Graph Title-->
+  
+      <meta property="og:title" content="PUBG战斗分析">
+  
+  <!--Open Graph Description-->
+  
+  <!--Open Graph Site Name-->
+  <meta property="og:site_name" content="zh1yu">
+  <!--Type page-->
+  
+      <meta property="og:type" content="article">
+  
+  <!--Page Cover-->
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Title -->
+  
+  <title>PUBG战斗分析 - zh1yu</title>
+
+
+  <link rel="shortcut icon" href="/images/heart0.png">
+
+  <!-- Custom CSS/Sass -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!----------------------------
+  https://github.com/GallenHu/hexo-theme-Daily
+
+ _____            _   _
+|  __ \          (_) | |
+| |  | |   __ _   _  | |  _   _
+| |  | |  / _` | | | | | | | | |
+| |__| | | (_| | | | | | | |_| |
+|_____/   \__,_| |_| |_|  \__, |
+                          __/ |
+                         |___/
+
+    --------------------------->
+
+</head>
+
+
+<body>
+
+  <!-- Nav -->
+  <header class="site-header">
+  <div class="header-inside">
+    <div class="logo">
+      <a href="/" rel="home">
+        
+        <img src="/images/heart0.png" alt="zh1yu" height="60">
+        
+      </a>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse">
+        <ul class="navbar-nav">
+          
+          
+            <li>
+              <a href="/.">
+                
+                  HOME
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="/archives">
+                
+                  ARCHIVES
+                
+              </a>
+            </li>
+          
+            <li>
+              <a href="/about">
+                
+                  ABOUT
+                
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </nav>
+    <div class="button-wrap">
+      <button class="menu-toggle">Primary Menu</button>
+    </div>
+  </div>
+</header>
+
+
+  <!-- Main Content -->
+  <div class="content-area">
+  <div class="post">
+    <!-- Post Content -->
+    <div class="container">
+      <article>
+        <!-- Title date & tags -->
+        <div class="post-header">
+          <h1 class="entry-title">
+            PUBG战斗分析
+            
+          </h1>
+          <p class="posted-on">
+          2018-11-09
+          </p>
+          <div class="tags-links">
+            
+              
+                <a href="/tags/游戏分析/" rel="tag">
+                  游戏分析
+                </a>
+              
+            
+          </div>
+        </div>
+        <!-- Post Main Content -->
+        <div class="entry-content has_line_number">
+          <p><strong>伤害计算概要：</strong></p>
+<p>初始血量为100，掉血量=基础伤害*（1 – 护具减伤百分比），血量为0时死亡；<br>护具损耗值=基础伤害，所有护具在其破碎前减伤效果保持恒定，当伤害大于当前护具值时，护具破碎；身体各个部位受到不同种类枪械攻击时的伤害结算：（例：突击步枪攻击肩部时受到100%基础伤害）</p>
+<p><img src="/images/Pubg.png" alt><br><strong>防具减伤：</strong></p>
+<p>一级护具：1级头盔：护具值80，减伤30%；1级防弹衣：护具值200，减伤30%；<br>二级护具：2级头盔：护具值150，减伤40%；2级防弹衣：护具值220，减伤40%；<br>三级护具：3级头盔，护具值230，减伤55%；3级防弹衣：护具值250，减伤55%；</p>
+<p>&ensp;&ensp;&ensp;&ensp;头部伤害远高于躯干伤害，以至于狙击枪在PUBG里有着重要的地位。为了避免突然被敌人爆头，许多玩家执着于追求3级头盔，并且经常时刻移动而避免保持静止给敌人瞄头的机会。类似98k一枪爆头的玩法会给攻击者带来极大的成就感，对应地，被击杀者的游戏体验通常异常差。被击杀者死前有时甚至不知道敌方位置，并且会受到一定程度的惊吓。这一设计使游戏氛围变得更加紧张、恐怖，是PUBG战斗中比较有特点的地方。而在同类游戏Apex中，为了减少玩家即死的挫败感，TTK被设计得长很多。</p>
+<p>&ensp;&ensp;&ensp;&ensp;在实际的游戏过程中，玩家在交战之后护具一般会受到不同程度的损耗。此时玩家经常会在损耗的2或3级护具与完好的1或2级护具之间做抉择，而最优的决策根据战斗情形而定。</p>
+<p>　　当玩家处于有被爆头风险的情形时（在空旷暴露的位置或正在与敌人中远距离对枪等），由于在防具破碎前受到最后一次攻击时，无论此时基础伤害为多少，减伤百分比都保持一定，所以选择护甲值只剩1的三级头也能在它破碎前抵御一次55%的头部伤害而不至于即死，比选择完好的2级头更加有利。当玩家处于近距离枪战（多为步枪对枪）时，由于击中身体各个部位时伤害判定不一样，没有比较明确的选择标准，但通过计算能得出一个大概的范围。护具值高于约150的破损3级甲可能优于完好2级甲，护具值高于约100的破损2级甲可能优于完好1级甲。头盔护具值高于110左右时破损3级头优与可能完好2级头。除了对枪形式，敌人的枪械也会影响抉择，如遇到头部伤害较低的冲锋枪，完好的1级头也许比残血2级头更优。</p>
+<p>　　PUBG中3级头盔难以被一枪爆头，而这一特点也有战术上的影响。在PUBG里适时隐藏自己的位置是求生的关键，而当玩家发现3级头的敌人时很可能为了避免暴露而选择不开枪。和Apex等游戏相比，PUBG中防具会在交战后破损的设计让玩家战斗力保持波动，使他们始终保持搜寻更好装备的状态，也给了他们更多为了在下一场战斗中碾压敌人而搜寻空投的动机。</p>
+<p>　　如何在装备中做抉择没有标准答案，玩家需要根据战术、战斗情形的不同分析，有比较高的自由度。手游《绝地求生：刺激战场》中有自动拾取推荐装备的功能，避免他们陷入纠结，优化了许多非硬核玩家的游戏体验。但端游里没有这一功能，游戏保持了比较硬核的玩法与风格，需要玩家制定更多的策略。</p>
+<p>　</p>
+
+        </div>
+      </article>
+    </div>
+    <!-- Comments -->
+    <div class="container">
+      
+<section id="comment">
+  <!-- <h1 class="title">Comments</h1> -->
+
+  
+</section>
+
+
+    </div>
+    <!-- Pre or Next -->
+    <div class="nav-links">
+      
+      
+        <div class="nav-next">
+          <a href="/2018/11/09/Sanxiao/" rel="prev">Newer Posts <span class="meta-arraw meta-arraw-right"></span></a>
+        </div>
+      
+    </div>
+
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <footer class="site-info">
+  <p style="text-align: center;">
+    <span> &copy; 2019 zh1yu.</span>
+    
+      <span>All Rights Reserved.</span>
+    
+  </p>
+</footer>
+
+
+  <!-- After footer scripts -->
+  <!-- scripts -->
+<script src="/js/app.js"></script>
+
+
+
+
+
+</body>
+
+</html>

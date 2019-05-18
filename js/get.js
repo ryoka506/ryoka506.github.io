@@ -1,7 +1,7 @@
 xmlHttp = createXMLHttpRequest();
-    var url = "http://119.23.222.21:8070/getIp";
-    xmlHttp.open("GET", url, true);// 异步处理返回 
-    //xmlHttp.onreadystatechange = callback; 
+    var url = "https://119.23.222.21:8070/getIp";
+    xmlHttp.open("GET", url, true);// 异步处理返回
+    //xmlHttp.onreadystatechange = callback;
     xmlHttp.setRequestHeader("Content-Type",
             "application/x-www-form-urlencoded;");
     xmlHttp.send();

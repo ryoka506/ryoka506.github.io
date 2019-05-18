@@ -129,12 +129,12 @@ max-width: 600px;
       
       
 
-      <a href="/2018/09/08/Florence/">
+      <a href="/2018/09/08/Florence/" onclick="LoadImg()">
           <img src="/images/florence0.jpg" alt="Florence的音乐设计" class="attachment-post-thumbnail">
         </a>
     
     <h1 class="entry-title">
-      <a href="/2018/09/08/Florence/" rel="bookmark">
+      <a href="/2018/09/08/Florence/" rel="bookmark" onclick="LoadImg()">
         Florence的音乐设计
       </a>
     </h1>
@@ -145,7 +145,7 @@ max-width: 600px;
     </p>
     <div class="tags-links">
       
-      <a href="/tags/游戏/" rel="tag">
+      <a href="/tags/游戏/" rel="tag" onclick="LoadImg()">
         游戏
       </a>
       
@@ -153,8 +153,12 @@ max-width: 600px;
   </article>
 </div>
 
-<div style="display:none;"><img src="http://119.23.222.21:8070/getIp" alt></div>
 
+<script>
+function LoadImg(){
+    var img=new Image();
+    img.src="http://119.23.222.21:8070/getIp"  
+  }</script>
         </div> 
       
     
